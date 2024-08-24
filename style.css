@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    padding-top: 10px;
+    font-size: 20px;
+    height: 60px;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.logo {
+    margin: 0px 10px;
+    padding-bottom: 10px;
+}
+
+.logo img {
+    height: 60px;
+    width: 200px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 3px 22px;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.navbar ul li a:hover {
+    text-decoration: none;
+    display: block;
+    padding: 3px 22px;
+    background-color: black;
+}
+
+.home {
+    height: 80vh;
+    width: auto;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assests/a.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.home h1 {
+    font-size: 45px;
+    padding: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+.home p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn {
+    padding: 5px 20px;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: rgba(170, 32, 32, 0.884);
+
+}
+
+.service {
+    height: 900px;
+    width: auto;
+    margin-top: 20px;
+    font-size: 30px;
+    background-image: url(./assests/black-painted-wall-textured-background_53876-110728.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.service h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+}
+
+.italian {
+    height: 300px;
+    width: 300px;
+    border: 1px solid red;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    border-radius: 25px;
+}
+
+.italian h5 {
+    margin-left: 20px;
+    color: red;
+}
+
+.butt {
+    margin-left: 20px;
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+
+.boximage1 {
+    background-image: url(./assests/pasta\ b.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    height: 75%;
+    width: 100%;
+    margin-left: 45px;
+    margin-right: 10px;
+    margin-top: 5px;
+
+}
+
+.boximage2 {
+    background-image: url(./assests/bbq\ b.png);
+    background-size: 210px;
+    background-repeat: no-repeat;
+    height: 75%;
+    width: 100%;
+    margin-left: 45px;
+    margin-right: 10px;
+    margin-top: px;
+    padding-bottom: 10px;
+
+}
+
+
+.boximage3 {
+    background-image: url(./assests/biryani.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    height: 75%;
+    width: 100%;
+    margin-left: 45px;
+    margin-right: 10px;
+    margin-top: 5px;
+
+}
+
+.boximage4 {
+    background-image: url(./assests/pizza.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 75%;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+
+}
+
+.boximage5 {
+    background-image: url(./assests/dumpling.png);
+    background-size: 230px;
+    background-repeat: no-repeat;
+    height: 70%;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+
+}
+
+.boximage6 {
+    background-image: url(./assests/itaalian.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 70%;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+
+}
+
+.boximage7 {
+    background-image: url(./assests/drinks.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    height: 70%;
+    width: 100%;
+    margin-left: 45px;
+    margin-right: 10px;
+    margin-top: 5px;
+
+}
+
+.boximage8 {
+    background-image: url(./assests/sweet.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    height: 70%;
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+
+}
+
+.butt {
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.butt:hover {
+    background-color: rgba(170, 32, 32, 0.884);
+}
+
+.client {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.contact {
+    height: 600px;
+    background-image: url(./assests/contyact\ us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 10px;
+}
+
+.contact1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    padding-bottom: 34px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.contact :focus {
+    background-color: blue;
+}
+
+.contact form {
+    width: 40%;
+    margin-top: 50px;
+}
+
+.contact label {
+    font-size: 20px;
+
+}
+
+.fot {
+    height: 40px;
+    background-color: rgba(10, 6, 53, 0.959);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width:1200px) {
+    .service {
+        height: 1800px;
+    }
+
+    .box {
+        height: 100%;
+        width: 100%;
+        justify-content: c;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:922px) {
+    .service {
+        height: 1800px;
+    }
+
+    .
+}
+
+
+@media screen and (max-width:768px) {
+
+    .navbar {
+        width: 100vw;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .logo img {
+        height: 50px;
+        width: 200px;
+        text-align: center;
+        margin-left: ;
+    }
+
+    .service {
+        height: 1900px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .navbar ul {
+        flex-direction: column;
+        margin-top: 70px;
+        font-size: ;
+        height: 10px;
+        margin-bottom: 100px;
+    }
+
+    .navbar ul li a {
+        font-size: 30px;
+    }
+
+    .navbar {
+        justify-content: center;
+        align-items: center;
+        width: 60vw;
+        position: absolute;
+
+    }
+
+    .logo img {
+        height: 30px;
+        width: 130px;
+        margin-left: 50px;
+    }
+
+    .home h1 {
+        text-align: center;
+    }
+
+    .home {
+        height: 100vh;
+    }
+
+
+    .service {
+        height: 2800px;
+    }
+}
+@media screen and(max-width:290px){}
+    
